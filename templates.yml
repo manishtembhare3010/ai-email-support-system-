@@ -1,0 +1,8 @@
+# Email reply templates
+default_reply:
+  subject: "Re: {subject}"
+  body: |
+    Thank you for your email. We have received your message and will respond shortly.
+    
+    Your message:
+    {message_preview}...
